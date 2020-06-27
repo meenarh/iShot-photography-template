@@ -1,0 +1,1 @@
+# iShot-photography-template
