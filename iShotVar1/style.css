@@ -1,0 +1,114 @@
+body{
+    font-family: serif, sans-serif;
+    font-weight: 400;
+    width: 100%;
+    font-size: 1rem;
+}
+.navbar-nav .nav-link{
+    font-size: .95rem;
+}
+.navbar-nav .active > .nav-link{
+    color:red !important;
+}
+.boldLinks {
+    color: rgba(0,0,0,1);
+    font-family: cursive;
+}
+.jumbotron{
+    background: url('./assets/bg.PNG');
+    background-size: cover;
+    height:80vh;
+    padding:11rem 3rem !important;
+    color: white;
+    font-family:sans-serif;
+}
+.heading{
+    font-size: 1.7rem;
+    padding:1rem 0;
+}
+.studio{
+    background-color: lightskyblue;
+    padding:1.5rem 2.5rem;
+}
+.widthImg{
+    height: 300px;
+    width: 100%;
+}
+span.message{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.contact-intro .fa-envelope{
+    font-size: 1.25rem;
+}
+button[type='submit']{
+   margin-left: 45%;
+}
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 2.5rem 3rem;
+}
+.footHead h1{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+footer span{
+    font-size: .85rem;
+    padding-left: 1rem;
+}
+.flexDiv{
+    margin-top: .8rem;
+}
+ .footerLink{
+    display: block;
+    text-align: justify;
+    text-decoration: none;
+    color: #fff;
+    padding-top: .5rem;
+}
+.socialLink {
+    text-decoration: none;
+    color: #fff;
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+#subscribeBtn{
+    width:fit-content;
+    padding: 1rem 4rem;
+}
+/* .playCont{
+    position: relative;
+}
+#playVector{
+    position: relative;
+    left: 36rem;
+    bottom: 19.5rem;
+    z-index: 1000;
+} */
+@media only screen and (max-width:768px){
+    .galleryShow img,
+    .studiosessions img{
+        margin-top: 1rem;
+    }
+    .studio{
+        padding: 0 1rem 1.5rem;
+    }
+    button[type='submit']{
+        margin-left: 30%;
+        margin-top: 1rem;
+     }
+     footer{
+         padding: 1rem 1.5rem;
+     }
+     .socialLink{
+         display: block;
+     }
+     .navbar-nav .nav-link{
+        font-size: .95rem;
+        font-family: sans-serif;
+    }
+
+}
