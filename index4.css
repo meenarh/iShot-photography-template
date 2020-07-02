@@ -1,0 +1,3929 @@
+@font-face {
+    font-family: Poppins-Regular;
+    src: url("../fonts/poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: Poppins-ExtraLight;
+    src: url("../fonts/poppins/Poppins-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url("../fonts/poppins/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url("../fonts/poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url("../fonts/poppins/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url("../fonts/poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: Poppins-ExtraBold;
+    src: url("../fonts/poppins/Poppins-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: Font-Awesome;
+    src: url("../fonts/font-awesome/fontawesome-webfont.ttf");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 2em;
+}
+
+.fa,
+.fas,
+.far,
+.fal,
+.fad {
+    font-family: "Font-Awesome";
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+    overflow: hidden;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1rem;
+    color: #707070;
+}
+
+h1 {
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 4.25rem;
+}
+
+h2 {
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 1.125rem;
+}
+
+h6 {
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 1rem;
+}
+
+a {
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: 0;
+    color: darkorchid;
+}
+
+button {
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+button:focus,
+button:hover {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+input:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+
+li {
+    list-style: none;
+}
+
+.btn {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1rem;
+    color: darkorchid;
+    padding: 10px 30px;
+}
+
+.btn.btn-primary {
+    background-color: darkorchid;
+    border: none;
+    color: #fff;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.btn.btn-primary:hover {
+    background-color: whitesmoke;
+}
+
+.btn.btn-primary:focus,
+.btn.btn-primary:active {
+    background-color: whitesmoke;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn.btn-primary-2 {
+    background-color: transparent;
+    border: 1px solid darkorchid;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.btn.btn-primary-2:hover {
+    color: #fff;
+    background-color: darkorchid;
+    border: 1px solid darkorchid;
+}
+
+.btn.btn-primary-2:focus,
+.btn.btn-primary-2:active {
+    color: #fff;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn.btn-secondary {
+    background-color: #707070;
+    border: none;
+    color: #fff;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.btn.btn-secondary:hover {
+    background-color: #909090;
+}
+
+.btn.btn-secondary:focus,
+.btn.btn-secondary:active {
+    background-color: #909090;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn.btn-secondary-2 {
+    background-color: transparent;
+    border: 1px solid #707070;
+    color: #707070;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.btn.btn-secondary-2:hover {
+    color: #fff;
+    background-color: #909090;
+    border: 1px solid #909090;
+}
+
+.btn.btn-secondary-2:focus,
+.btn.btn-secondary-2:active {
+    color: #fff;
+    background-color: #909090;
+    border: 1px solid #909090;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn.btn-white {
+    background-color: #f5f5f5;
+    border: none;
+    color: #707070;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.btn.btn-white:hover {
+    background-color: #fff;
+    color: darkorchid;
+}
+
+.btn.btn-white:focus,
+.btn.btn-white:active {
+    background-color: #fff;
+    color: whitesmoke;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn.btn-white-2 {
+    background-color: transparent;
+    border: 1px solid #f5f5f5;
+    color: #f5f5f5;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.btn.btn-white-2:hover {
+    color: darkorchid;
+    background-color: #fff;
+    border: 1px solid #fff
+}
+
+.btn.btn-white-2:focus,
+.btn.btn-white-2:active {
+    color: whitesmoke;
+    background-color: #fff;
+    border: 1px solid #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.input-group input {
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+.input-group input.form-control {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1.125rem;
+    color: #707070;
+}
+
+.input-group input:focus {
+    background-color: #fff;
+    border: 1px solid #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.input-group input::-webkit-input-placeholder {
+    color: #bebebe;
+}
+
+.input-group input:-ms-input-placeholder {
+    color: #bebebe;
+}
+
+.input-group input::-ms-input-placeholder {
+    color: #bebebe;
+}
+
+.input-group input::placeholder {
+    color: #bebebe;
+}
+
+.input-group button {
+    padding: 0px 16px;
+}
+
+.input-group button.input-group-text {
+    background-color: darkorchid;
+    border: 1px solid darkorchid;
+    color: #fff;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.input-group button:hover.input-group-text {
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    color: #fff;
+}
+
+.input-group button:focus.input-group-text {
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    outline: none;
+}
+
+.section-title-1 {
+    padding-top: 7px;
+    padding-bottom: 25px;
+}
+
+.section-title-1 h1 {
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 2rem;
+    color: #707070;
+}
+
+.section-title-2 {
+    padding-top: 7px;
+    padding-bottom: 25px;
+}
+
+.section-title-2 h1 {
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.section-divider-1 {
+    padding: 15px;
+}
+
+.section-divider-2 {
+    padding: 15px 0px;
+}
+
+@media only screen and (max-width: 991px) {
+    .section-divider-2 {
+        margin-bottom: 72px;
+    }
+}
+
+.top-line-1 {
+    width: 125px;
+    height: 5px;
+    top: 0px;
+    right: unset;
+    bottom: unset;
+    left: 15px;
+    position: absolute;
+    background-color: darkorchid;
+    -webkit-clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
+}
+
+.top-line-2 {
+    width: 100%;
+    height: 5px;
+    top: 0px;
+    right: 0px;
+    bottom: unset;
+    left: 0px;
+    position: absolute;
+    background-color: darkorchid;
+    -webkit-clip-path: polygon(34% 0%, 66% 0%, 65% 100%, 35% 100%);
+    clip-path: polygon(34% 0%, 66% 0%, 65% 100%, 35% 100%);
+}
+
+.height-75 {
+    width: unset;
+    height: 75px;
+}
+
+.hamburger:focus {
+    outline: none;
+}
+
+.text-primary {
+    color: darkorchid !important;
+}
+
+
+
+
+
+#sidebar {
+    padding: 24px 5px;
+}
+
+#sidebar .input-group input {
+    background-color: #363636;
+    border: 1px solid #363636;
+    padding-right: 0px;
+}
+
+#sidebar .input-group input.form-control {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1rem;
+    color: #fff;
+}
+
+#sidebar .input-group input:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#sidebar .input-group input::-webkit-input-placeholder {
+    color: #bebebe;
+}
+
+#sidebar .input-group input:-ms-input-placeholder {
+    color: #bebebe;
+}
+
+#sidebar .input-group input::-ms-input-placeholder {
+    color: #bebebe;
+}
+
+#sidebar .input-group input::placeholder {
+    color: #bebebe;
+}
+
+#sidebar .input-group button {
+    padding: 0px 12px;
+}
+
+#sidebar .input-group button.input-group-text {
+    background-color: #363636;
+    border: 1px solid #363636;
+    color: #fff;
+}
+
+#sidebar .input-group button:hover.input-group-text {
+    color: darkorchid;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+#sidebar .input-group button:focus.input-group-text {
+    color: darkorchid;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+}
+
+#sidebar li > a {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1rem;
+    color: #bebebe;
+    display: block;
+    text-transform: capitalize;
+    line-height: 2em;
+}
+
+#sidebar li > a:hover {
+    color: #fff;
+}
+
+#sidebar li > a:first-child {
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 1.25rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 40px 0px 10px;
+}
+
+#sidebar li > a:first-child:hover {
+    color: darkorchid;
+}
+
+.slideout-menu {
+    background-color: #242424;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 272px;
+    height: 100vh;
+    overflow-y: auto;
+    z-index: 0;
+    display: none;
+}
+
+.slideout-menu-left {
+    left: 0;
+}
+
+.slideout-menu-right {
+    right: 0;
+}
+
+.slideout-panel {
+    position: relative;
+    z-index: 1;
+    will-change: transform;
+    background-color: #fff;
+}
+
+.slideout-open .slideout-menu {
+    display: block;
+}
+
+.sticky-navbar {
+    top: 0px;
+    right: 0px;
+    bottom: unset;
+    left: 0px;
+    width: 100%;
+    height: 70px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: #fff;
+    z-index: 99;
+}
+
+.sticky-navbar .nav-item {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1.25rem;
+    color: #707070;
+    margin: auto 0px;
+}
+
+.sticky-navbar .nav-item .logo {
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 2rem;
+    color: darkorchid;
+}
+
+.sticky-navbar .nav-item:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.sticky-navbar .nav-item a {
+    color: #707070;
+}
+
+.sticky-navbar .nav-item a:after {
+    display: block;
+    content: '';
+    border-bottom: solid 2px darkorchid;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: -webkit-transform 0.3s ease-in-out;
+    transition: -webkit-transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+.sticky-navbar .nav-item a.page-active:after {
+    display: block;
+    content: '';
+    border-bottom: solid 2px darkorchid;
+    -webkit-transition: -webkit-transform 0.3s ease-in-out;
+    transition: -webkit-transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.sticky-navbar .nav-item a:last-child {
+    margin-right: 0px;
+}
+
+.sticky-navbar .nav-item a:hover {
+    color: darkorchid;
+}
+
+.sticky-navbar .nav-item .search-btn {
+    width: 32px;
+    height: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 2px;
+    background-color: darkorchid;
+}
+
+.sticky-navbar .nav-item .search-btn:hover {
+    background-color: whitesmoke;
+}
+
+.sticky-navbar .nav-item .search-btn > span {
+    font-size: 1.125rem;
+    color: #fff;
+}
+
+.header-banner-1,
+.header-banner-2,
+.header-banner-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: unset;
+    -ms-flex-pack: unset;
+    justify-content: unset;
+    position: relative;
+}
+
+.header-banner-1 .overlay-bg,
+.header-banner-2 .overlay-bg,
+.header-banner-3 .overlay-bg {
+    position: absolute;
+}
+
+.header-banner-1 .banner-content,
+.header-banner-2 .banner-content,
+.header-banner-3 .banner-content {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: left;
+}
+
+.header-banner-1 {
+    width: unset;
+    height: 90vh;
+    background-image: url("img/camera.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 991px) {
+    .header-banner-1 {
+        background-position: left;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .header-banner-1 {
+        background-position: right -18rem bottom 0;
+    }
+}
+
+footer {
+    background: darkorchid;
+    color: black;
+    padding: 0;
+}
+
+.social-links li {
+    color: black;
+    display: inline;
+}
+
+.social {
+    background-color: white;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 0;
+
+}
+
+.header-banner-1 .overlay-bg {
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: -webkit-gradient(linear, right top, left top, from(#00000010), color-stop(#ffffff88), to(#ffffffcc));
+    background-image: linear-gradient(to left, #00000010, #ffffff88, #ffffffcc);
+}
+
+@media only screen and (max-width: 991px) {
+    .header-banner-1 .overlay-bg {
+        background-image: none;
+        background-color: #ffffff70;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .header-banner-1 .overlay-bg {
+        background-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#ffffff44), to(#ffffff88));
+        background-image: linear-gradient(to right, transparent, #ffffff44, #ffffff88);
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .header-banner-1 .banner-content {
+        text-align: center;
+    }
+}
+
+.header-banner-1 .banner-content .heading > .headline {
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 4.25rem;
+    color: darkorchid;
+}
+
+.header-banner-1 .banner-content .heading > .caption {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1.25rem;
+    color: #707070;
+}
+
+@media only screen and (max-width: 575px) {
+    .header-banner-1 a.btn.btn-primary-2 {
+        background-color: darkorchid;
+        color: #fff;
+    }
+
+    .header-banner-1 a.btn.btn-primary-2:hover,
+    .header-banner-1 a.btn.btn-primary-2:focus,
+    .header-banner-1 a.btn.btn-primary-2:active {
+        color: #fff;
+        background-color: whitesmoke;
+        border: 1px solid whitesmoke;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    display: none !important;
+}
+
+.header-banner-2 {
+    width: unset;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-banner-2 .overlay-bg {
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#00000059), to(#00000091));
+    background-image: linear-gradient(to right, transparent, #00000059, #00000091);
+}
+
+@media only screen and (max-width: 767px) {
+    .header-banner-2 .overlay-bg {
+        background-image: -webkit-gradient(linear, left top, right top, from(#00000042), color-stop(#00000034), to(#00000042));
+        background-image: linear-gradient(to right, #00000042, #00000034, #00000042);
+    }
+}
+
+.header-banner-2 .banner-content {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.header-banner-2 .banner-content > div > div:first-child {
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.header-banner-2 .banner-content > div > div:nth-child(2) {
+    margin: 25px 0px 50px;
+    font-size: 1.125rem;
+    color: darkorchid;
+}
+
+.header-banner-2 .banner-content > div > div:nth-child(2) > span:first-child {
+    color: #f5f5f5;
+}
+
+.header-banner-2 .banner-content > div > div:nth-child(2) > span:nth-child(2) {
+    color: #f5f5f5;
+    margin: 0px 15px;
+}
+
+@media only screen and (max-width: 767px) {
+    .header-banner-2 a.btn.btn-white-2 {
+        color: darkorchid;
+        background-color: #fff;
+        border: 1px solid #fff;
+    }
+
+    .header-banner-2 a.btn.btn-white-2:hover,
+    .header-banner-2 a.btn.btn-white-2:focus,
+    .header-banner-2 a.btn.btn-white-2:active {
+        color: whitesmoke;
+        background-color: #fff;
+        border: 1px solid #fff;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+}
+
+.header-banner-3 {
+    width: unset;
+    height: 50vh;
+    background-image: url("img/phone.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 991px) {
+    .header-banner-3 {
+        background-position: left;
+    }
+}
+
+.header-banner-3 .overlay-bg {
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: -webkit-gradient(linear, right top, left top, from(#00000010), color-stop(#ffffff88), to(#ffffffcc));
+    background-image: linear-gradient(to left, #00000010, #ffffff88, #ffffffcc);
+}
+
+@media only screen and (max-width: 767px) {
+    .header-banner-3 .overlay-bg {
+        background-image: none;
+        background-color: #ffffffcc;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header-banner-3 .banner-content {
+        text-align: center;
+    }
+}
+
+.header-banner-3 .banner-content div:first-child {
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 2rem;
+    color: darkorchid;
+    margin-bottom: 15px;
+}
+
+.header-banner-3 .banner-content div:last-child {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1.125rem;
+    color: #707070;
+}
+
+.header-banner-4 {
+    width: unset;
+    height: 80vh;
+    background-image: url("img/casserole.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-banner-4 .head {
+    width: unset;
+    height: 80vh;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.header-banner-4 .head .headline {
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 4.25rem;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 5.4rem;
+    margin-bottom: 25vh;
+}
+
+@media only screen and (max-width: 575px) {
+    .header-banner-4 .head .headline {
+        font-family: "Poppins-SemiBold", sans-serif;
+        font-size: 3rem;
+        color: #fff;
+        line-height: 4rem;
+    }
+}
+
+.header-banner-4 .card-container {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.header-banner-4 .card-container .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: unset;
+    -ms-flex-pack: unset;
+    justify-content: unset;
+    background-color: #fff;
+    padding: 36px 0px;
+    -webkit-box-shadow: 2px 2px 20px #25252560;
+    box-shadow: 2px 2px 20px #25252560;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .header-banner-4 .card-container .card {
+        padding: 24px 0px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .header-banner-4 .card-container .card {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: unset;
+        -ms-flex-align: unset;
+        align-items: unset;
+        -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+        justify-content: unset;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header-banner-4 .card-container .card {
+        padding: 30px 0px;
+    }
+}
+
+.header-banner-4 .card-container .card .icon-card {
+    width: auto;
+    height: 130px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .header-banner-4 .card-container .card .icon-card {
+        width: auto;
+        height: 100px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-banner-4 .card-container .card .icon-card {
+        width: auto;
+        height: 90px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header-banner-4 .card-container .card .icon-card {
+        width: auto;
+        height: 75px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .header-banner-4 .card-container .card .icon-card {
+        width: auto;
+        height: 50px;
+    }
+}
+
+.header-banner-4 .card-container .card .head-card {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1.125rem;
+    color: #909090;
+    padding: 16px 0px 32px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .header-banner-4 .card-container .card .head-card {
+        padding: 8px 0px 20px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .header-banner-4 .card-container .card .head-card {
+        font-family: "Poppins-Regular", sans-serif;
+        font-size: .875rem;
+        color: #909090;
+    }
+}
+
+.header-banner-4 .card-container .card .body-card {
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 2rem;
+    color: #707070;
+}
+
+@media only screen and (max-width: 991px) {
+    .header-banner-4 .card-container .card .body-card {
+        font-family: "Poppins-SemiBold", sans-serif;
+        font-size: 1.5rem;
+        color: #707070;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .header-banner-4 .card-container .card .body-card {
+        font-family: "Poppins-Medium", sans-serif;
+        font-size: 1.25rem;
+        color: #707070;
+    }
+}
+
+.footer-banner {
+    background-color: #242424;
+    color: #fff;
+    padding: 100px 0px;
+}
+
+.footer-banner .divider-1 {
+    height: 40px;
+}
+
+.footer-banner .margin-100-150 {
+    height: 100px;
+}
+
+@media only screen and (max-width: 991px) {
+    .footer-banner .margin-100-150 {
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .footer-banner .margin-100-150 {
+        height: 100px;
+    }
+}
+
+.footer-banner .headline {
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.footer-banner .content {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1rem;
+    color: #bebebe;
+    line-height: 1.8em;
+}
+
+.footer-banner .content a {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1rem;
+    color: #bebebe;
+    line-height: 1.8em;
+}
+
+.footer-banner .content a:hover {
+    color: #fff;
+}
+
+.footer-banner .popular-recipes li {
+    margin-bottom: 16px;
+}
+
+.footer-banner .popular-recipes li:last-child {
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+    .footer-banner .popular-recipes {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .footer-banner .contact-info {
+        margin-top: 85px;
+        text-align: center;
+    }
+}
+
+.footer-banner .contact-info li {
+    display: table;
+    margin-bottom: 24px;
+}
+
+.footer-banner .contact-info li:last-child {
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+    .footer-banner .contact-info li {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+.footer-banner .contact-info li > span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 767px) {
+    .footer-banner .contact-info li > span {
+        display: unset;
+        vertical-align: unset;
+    }
+}
+
+.footer-banner .contact-info li > span:first-child {
+    width: 36px;
+    height: 36px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #363636;
+    border-radius: 50%;
+    color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+    .footer-banner .contact-info li > span:first-child {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.footer-banner .contact-info li > span:last-child {
+    padding-left: 12px;
+}
+
+@media only screen and (max-width: 767px) {
+    .footer-banner .contact-info li > span:last-child {
+        padding: 8px 0px 12px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .footer-banner .about-us {
+        margin-top: 75px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .footer-banner .about-us {
+        margin-top: 85px;
+    }
+}
+
+.footer-banner .icon {
+    width: 45px;
+    height: 45px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #363636;
+    border-radius: 50%;
+    color: #fff;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    margin-right: 16px;
+}
+
+.footer-banner .icon:last-child {
+    margin-right: 0px;
+}
+
+.footer-banner .icon:hover {
+    background-color: #fff;
+    color: darkorchid;
+}
+
+.footer-banner .copyright-information {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1rem;
+    color: #bebebe;
+}
+
+@media only screen and (max-width: 1199px) {
+    .footer-banner .copyright-information .information {
+        margin-top: 40px;
+    }
+}
+
+.footer-banner .copyright-information .information > ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: unset;
+    -ms-flex-align: unset;
+    align-items: unset;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 575px) {
+    .footer-banner .copyright-information .information > ul {
+        display: unset;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .footer-banner .copyright-information .information > ul > li {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .footer-banner .copyright-information .information > ul > li:first-child {
+        margin-top: 5rem;
+    }
+}
+
+.footer-banner .copyright-information .information > ul > li > a {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.footer-banner .copyright-information .information > ul > li > a:hover {
+    color: darkorchid;
+}
+
+.block-video {
+    padding: 150px 0px 75px 0px;
+}
+
+.block-video .video-container {
+    background-image: url("https://res.cloudinary.com/dazv1d1us/image/upload/v1582900496/Foodies/img/wukb8rhrvlncbv2urskm.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 15px;
+    height: 350px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .block-video .video-container {
+        height: 500px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .block-video .video-container {
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .block-video .video-container {
+        height: 325px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .block-video .video-container {
+        height: 225px;
+    }
+}
+
+.block-video .video-container > .video-bg {
+    border-radius: 15px;
+    ;
+    top: 0px;
+    right: 15px;
+    bottom: 0px;
+    left: 15px;
+    position: absolute;
+    background-color: #252525ab;
+    -webkit-box-shadow: 3px 3px 15px #707070;
+    box-shadow: 3px 3px 15px #707070;
+}
+
+.block-video .video-container > .play-icon {
+    z-index: 2;
+    width: 80px;
+    height: auto;
+}
+
+.block-video .text-container {
+    padding: 0px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .block-video .text-container {
+        text-align: center;
+        text-transform: unset;
+    }
+}
+
+.block-video .text-container div:first-child {
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 1.25rem;
+    color: darkorchid;
+    text-align: unset;
+    text-transform: uppercase;
+}
+
+.block-video .text-container div:nth-child(2) {
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 2rem;
+    color: #707070;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    line-height: 2.4rem;
+}
+
+.block-video .text-container div:last-child {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1.125rem;
+    color: #707070;
+    line-height: 1.6875rem;
+}
+
+.block-recipes-1 {
+    padding: 75px 0px;
+}
+
+.block-recipes-1 .img-container {
+    width: 100%;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.block-recipes-1 .img-container > .after {
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: unset;
+    -ms-flex-pack: unset;
+    justify-content: unset;
+    position: absolute;
+    background-color: #252525be;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s ease-out;
+    transition: opacity 0.5s ease-out;
+    overflow: hidden;
+}
+
+.block-recipes-1 .img-container > .after .after-title {
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.block-recipes-1 .img-container > .after .after-title:hover {
+    color: darkorchid;
+}
+
+.block-recipes-1 .img-container > .after .after-img {
+    width: 75px;
+    height: 75px;
+    background-image: url("https://res.cloudinary.com/dazv1d1us/image/upload/v1582900343/Foodies/img/person/hgrhdpwzijf2rc3usr6k.png");
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.block-recipes-1 .img-container > .after .after-name {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    padding: 7px 0px;
+}
+
+.block-recipes-1 .img-container > .img-title {
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    top: 15px;
+    right: unset;
+    bottom: unset;
+    left: 15px;
+    border-radius: 0px 0px 25px 0px;
+    position: absolute;
+    padding: 3px 40px;
+    background-color: darkorchid;
+}
+
+.block-recipes-1 .img-container:hover > .after {
+    opacity: 1;
+}
+
+.block-recipes-1 .img-container:hover > .img-title {
+    opacity: 0;
+    -webkit-transition: opacity 0.5s ease-out;
+    transition: opacity 0.5s ease-out;
+}
+
+.block-recipes-2 {
+    margin: 75px 0px 150px 0px;
+}
+
+@media only screen and (max-width: 991px) {
+    .block-recipes-2 .md-up {
+        margin-bottom: 100px;
+    }
+}
+
+.block-recipes-2 .img-date {
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: .875rem;
+    color: #fff;
+    top: 0px;
+    right: unset;
+    bottom: unset;
+    left: 15px;
+    border-radius: 0px 0px 25px 0px;
+    position: absolute;
+    padding: 3px 32px;
+    background-color: darkorchid;
+}
+
+@media only screen and (max-width: 767px) {
+    .block-recipes-2 img.shadow-xs {
+        -webkit-box-shadow: 0px 0px 15px #707070;
+        box-shadow: 0px 0px 15px #707070;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .block-recipes-2 .text-container.shadow-xs {
+        -webkit-box-shadow: 0px 0px 15px #707070;
+        box-shadow: 0px 0px 15px #707070
+    }
+}
+
+.block-recipes-2 .text-container {
+    background-color: #fff;
+}
+
+@media only screen and (max-width: 991px) {
+    .block-recipes-2 .text-container.padding-md {
+        padding: 48px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .block-recipes-2 .text-container.padding-md {
+        padding: 32px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .block-recipes-2 .text-container {
+        padding-top: 16px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .block-recipes-2 .text-container {
+        padding: 32px;
+    }
+}
+
+.block-recipes-2 .text-container > p:first-child {
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 1.5rem;
+    color: #707070;
+}
+
+.block-recipes-2 .text-container > p:nth-child(2) {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: .875rem;
+    color: darkorchid;
+}
+
+.block-recipes-2 .text-container > p:nth-child(3) {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: .875rem;
+    color: #707070;
+    padding-top: 8px;
+    line-height: 1.6em;
+}
+
+.block-recipes-2 .text-container > a {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: .875rem;
+    color: #909090;
+}
+
+.block-recipes-2 .text-container > a:hover {
+    color: darkorchid;
+}
+
+.block-recipes-3 {
+    -webkit-box-shadow: 0px 0px 15px #70707050;
+    box-shadow: 0px 0px 15px #70707050;
+}
+
+@media only screen and (min-width: 992px) {
+    .block-recipes-3 {
+        min-height: 590px;
+        background-color: #fff;
+    }
+
+    .block-recipes-3 .read-lg {
+        font-family: "Poppins-Medium", sans-serif;
+        font-size: .875rem;
+        color: #fff;
+        top: unset;
+        right: 15px;
+        bottom: 0px;
+        left: unset;
+        border-radius: 25px 0px 0px 0px;
+        position: absolute;
+        padding: 5px 32px;
+        background-color: darkorchid;
+    }
+
+    .block-recipes-3 .read-lg:hover {
+        background-color: whitesmoke;
+    }
+}
+
+.block-recipes-4 {
+    margin: 150px 0px 75px;
+}
+
+.block-recipes-4 .img-container {
+    width: auto;
+    height: 375px;
+    border-radius: 15px;
+    -webkit-box-shadow: 2px 2px 10px #252525be;
+    box-shadow: 2px 2px 10px #252525be;
+    padding: 20px;
+}
+
+.block-recipes-4 .img-container > .text-container {
+    width: auto;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0px 0px 8px 0px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .block-recipes-4 .img-container > .text-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 575px) {
+    .block-recipes-4 .img-container > .text-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+}
+
+.block-recipes-4 .img-container > .text-container div:first-child {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: .875rem;
+    color: #fff;
+    border-radius: 15px;
+    top: 35px;
+    right: unset;
+    bottom: unset;
+    left: 35px;
+    background-color: #707070;
+    position: absolute;
+    opacity: 64%;
+    padding: 2px 12px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .block-recipes-4 .img-container > .text-container div:first-child {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 575px) {
+    .block-recipes-4 .img-container > .text-container div:first-child {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+}
+
+.block-recipes-4 .img-container > .text-container div:nth-child(2) {
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 28px;
+    color: #fff;
+    width: auto;
+    height: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    justify-content: left;
+    margin-top: 48px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .block-recipes-4 .img-container > .text-container div:nth-child(2) {
+        text-align: center;
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .block-recipes-4 .img-container > .text-container div:nth-child(2) {
+        margin-top: 72px;
+    }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 575px) {
+    .block-recipes-4 .img-container > .text-container div:nth-child(2) {
+        text-align: center;
+        margin-top: 72px;
+    }
+}
+
+.block-recipes-4 .img-container > .text-container div:nth-child(3) {
+    width: auto;
+    height: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    justify-content: left;
+}
+
+.block-recipes-4 .img-container > .text-container div:nth-child(3) a {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: .875rem;
+    color: #bebebe;
+    border-color: #bebebe;
+    padding: 5px 15px;
+}
+
+.block-recipes-4 .img-container > .text-container div:nth-child(3) a:hover,
+.block-recipes-4 .img-container > .text-container div:nth-child(3) a:focus {
+    border-color: #909090;
+    color: #fff;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .block-recipes-4 .img-container > .text-container div:nth-child(3) {
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .block-recipes-4 .img-container > .text-container div:nth-child(3) {
+        margin-bottom: 36px;
+    }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 575px) {
+    .block-recipes-4 .img-container > .text-container div:nth-child(3) {
+        margin-bottom: 36px;
+    }
+}
+
+.block-recipes-4 .img-container > .text-container div:last-child {
+    width: auto;
+    height: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    justify-content: left;
+    color: #fff;
+}
+
+.pagination {
+    margin-top: 25px;
+}
+
+.pagination .page-item {
+    margin: 0px 5px;
+}
+
+.pagination .page-item .page-link {
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 1rem;
+    color: darkorchid;
+    width: 40px;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    padding: 0px;
+    border: 1px solid darkorchid;
+    border-radius: 2px !important;
+}
+
+.pagination .page-item .page-link:hover {
+    background-color: darkorchid;
+    border: 1px solid darkorchid;
+    color: #fff;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: darkorchid;
+    border: 1px solid darkorchid;
+    color: #fff;
+}
+
+.font-stack-1 {
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 1.5rem;
+    color: #707070;
+}
+
+.font-stack-2 {
+    font-family: "Poppins-Light", sans-serif;
+    font-size: 1rem;
+    color: #909090;
+}
+
+.font-stack-3 {
+    font-family: "Poppins-Light", sans-serif;
+    font-size: 1.125rem;
+    color: #707070;
+}
+
+.font-stack-4 {
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 2rem;
+    color: #707070;
+}
+
+.post-content {
+    padding: 300px 0px 75px;
+}
+
+.post-content ul {
+    display: table;
+    margin: 0px;
+}
+
+.post-content ul > li {
+    display: table-row;
+}
+
+.post-content ul > li > span {
+    display: table-cell;
+    vertical-align: top;
+    padding: 24px 16px 16px 0px;
+}
+
+.post-content ul > li > span:first-child {
+    padding-right: 24px;
+    line-height: 1.2em;
+}
+
+.post-content .ingredient-box {
+    padding: 24px 36px;
+    background-color: #f5f5f5;
+}
+
+.post-content .direction-box {
+    padding: 24px 36px;
+    background-color: #fff;
+}
+
+@media only screen and (max-width: 991px) {
+    .post-content .direction-box {
+        margin-top: 75px;
+    }
+}
+
+.post-content .direction-box .num-box {
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: darkorchid;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 991px) {
+    .post-content .direction-box .num-box {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .post-content .direction-box .num-box {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .post-content .direction-box .num-box {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.post-content .rating {
+    display: inline-block;
+    color: darkorchid;
+    margin-left: 16px;
+}
+
+.post-content .tags {
+    margin-left: 16px;
+}
+
+.post-content .tags > a {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    border-radius: 2px;
+    margin: 0px 6px 8px !important;
+    padding: 0px 16px;
+    border: 1px solid darkorchid;
+    color: darkorchid;
+    text-align: center;
+}
+
+.post-content .tags > a:first-child {
+    margin-left: 0px;
+}
+
+.post-content .tags > a:last-child {
+    margin-right: 0px;
+}
+
+.post-content .tags > a:hover {
+    background-color: darkorchid;
+    color: #fff;
+}
+
+.comment-section {
+    padding: 75px 0px;
+}
+
+.comment-section .comment-box {
+    margin: 15px 0px;
+    padding: 32px 36px;
+    background-color: #f5f5f5;
+}
+
+@media only screen and (max-width: 767px) {
+    .comment-section .comment-box {
+        padding: 32px 24px;
+    }
+}
+
+.comment-section .comment-box ul {
+    display: table;
+    margin: 0px;
+}
+
+.comment-section .comment-box ul > li {
+    display: table-row;
+}
+
+.comment-section .comment-box ul > li > div {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.comment-section .comment-box ul > li > div:first-child {
+    padding-right: 36px;
+}
+
+@media only screen and (max-width: 767px) {
+    .comment-section .comment-box ul > li > div:first-child {
+        padding-right: 24px;
+    }
+}
+
+.comment-section .comment-box .img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 991px) {
+    .comment-section .comment-box .img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .comment-section .comment-box .img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .comment-section .comment-box .img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.comment-section .comment-box .text {
+    vertical-align: top;
+}
+
+.comment-form {
+    padding: 75px 0px 150px;
+}
+
+.comment-form .form-group {
+    margin: 0px;
+    padding: 15px;
+}
+
+.comment-form .form-group > .form-control {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1rem;
+    color: #707070;
+    background-color: transparent;
+    padding: 20px;
+    border: 1px solid #bebebe;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.comment-form .form-group > .form-control:first-child {
+    text-align: unset;
+    text-transform: capitalize;
+}
+
+.comment-form .form-group > .form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #707070;
+}
+
+.comment-form .form-group > .form-control::-webkit-input-placeholder {
+    color: #bebebe;
+}
+
+.comment-form .form-group > .form-control:-ms-input-placeholder {
+    color: #bebebe;
+}
+
+.comment-form .form-group > .form-control::-ms-input-placeholder {
+    color: #bebebe;
+}
+
+.comment-form .form-group > .form-control::placeholder {
+    color: #bebebe;
+}
+
+.contact-section {
+    padding: 50px 0px;
+    background-color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+    .contact-section .md-up {
+        margin-bottom: 50px;
+    }
+}
+
+.contact-section .form-group {
+    margin: 0px;
+    padding: 15px;
+}
+
+.contact-section .form-group > .form-control {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1rem;
+    color: #707070;
+    background-color: transparent;
+    padding: 20px;
+    border: 1px solid #bebebe;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.contact-section .form-group > .form-control:first-child {
+    text-align: unset;
+    text-transform: capitalize;
+}
+
+.contact-section .form-group > .form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #707070;
+}
+
+.contact-section .form-group > .form-control::-webkit-input-placeholder {
+    color: #bebebe;
+}
+
+.contact-section .form-group > .form-control:-ms-input-placeholder {
+    color: #bebebe;
+}
+
+.contact-section .form-group > .form-control::-ms-input-placeholder {
+    color: #bebebe;
+}
+
+.contact-section .form-group > .form-control::placeholder {
+    color: #bebebe;
+}
+
+.contact-section .section-info {
+    margin: 0px;
+    padding: 5px 0px;
+}
+
+.contact-section .section-info ul {
+    padding: 0;
+}
+
+.contact-section .section-info ul > li {
+    display: table;
+    margin-bottom: 36px;
+}
+
+.contact-section .section-info ul > li:last-child {
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+    .contact-section .section-info ul > li {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.contact-section .section-info ul > li > img,
+.contact-section .section-info ul > li > span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .contact-section .section-info ul > li > img,
+    .contact-section .section-info ul > li > span {
+        display: unset;
+        vertical-align: unset;
+    }
+}
+
+.contact-section .section-info ul > li > img {
+    width: 40px;
+    height: auto;
+    padding-top: 4px;
+}
+
+@media only screen and (max-width: 767px) {
+    .contact-section .section-info ul > li > img {
+        width: 64px;
+        height: auto;
+    }
+}
+
+.contact-section .section-info ul > li > span {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1.125rem;
+    color: #707070;
+    padding-left: 12px;
+}
+
+@media only screen and (max-width: 767px) {
+    .contact-section .section-info ul > li > span {
+        padding-left: 0px;
+        padding-top: 8px;
+    }
+}
+
+.subscribe-section {
+    padding: 150px 0px;
+    background-color: #ffebeb;
+}
+
+@media only screen and (max-width: 767px) {
+    .subscribe-section .md-up {
+        margin-bottom: 150px;
+    }
+}
+
+.subscribe-section .sub-headline {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1.125rem;
+    color: #909090;
+    text-align: center;
+    text-transform: unset;
+    padding: 0px 0px 44px;
+}
+
+.subscribe-section .icon {
+    width: 40px;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: darkorchid;
+    border-radius: 50%;
+    color: #fff;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    margin-right: 20px;
+}
+
+.subscribe-section .icon:last-child {
+    margin-right: 0px;
+}
+
+.subscribe-section .icon:hover {
+    background-color: whitesmoke;
+}
+
+body#page-not-found {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    background-image: url("https://res.cloudinary.com/dazv1d1us/image/upload/v1582965208/Foodies/img/404/rl8uhwgh00egui00hxxv.jpg");
+    background-size: auto 100%;
+    background-position: top 0 left 25%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    body#page-not-found {
+        background-size: auto 95%;
+        background-position: top 5% left 12.5%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body#page-not-found {
+        background-size: auto 80%;
+        background-position: top 35% left -10%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body#page-not-found {
+        height: 98vh;
+        background-image: none;
+        background-color: #fff;
+        border-top: 2vh solid darkorchid;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+body#page-not-found #message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 35vw;
+    -webkit-transform: translateY(-50%) translateX(-25%);
+    transform: translateY(-50%) translateX(-25%);
+    padding: 32px 24px 16px;
+}
+
+body#page-not-found #message h1 {
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 4.25rem;
+    color: darkorchid;
+    line-height: 5.4rem;
+    margin: 0 0 0.25em;
+}
+
+body#page-not-found #message h2 {
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 2rem;
+    color: #707070;
+    text-transform: uppercase;
+    line-height: 2.4rem;
+    margin: 0 0 0.75em;
+}
+
+body#page-not-found #message p {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 1rem;
+    color: #707070;
+    line-height: 1.5rem;
+    margin: 0 0 1em;
+}
+
+body#page-not-found #message .link {
+    margin: 2rem 0;
+}
+
+body#page-not-found #message .link a {
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 1.25rem;
+    color: darkorchid;
+    line-height: 1.875rem;
+    text-decoration: none;
+}
+
+body#page-not-found #message .link a:hover {
+    color: whitesmoke;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    body#page-not-found #message {
+        max-width: 40vw;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body#page-not-found #message {
+        max-width: 40vw;
+    }
+
+    body#page-not-found #message h1 {
+        font-family: "Poppins-SemiBold", sans-serif;
+        font-size: 3.5rem;
+        color: darkorchid;
+        line-height: 4.2rem;
+        margin: 0 0 0.25em;
+    }
+
+    body#page-not-found #message h2 {
+        font-family: "Poppins-Medium", sans-serif;
+        font-size: 1.25rem;
+        color: #707070;
+        text-transform: uppercase;
+        line-height: 1.5rem;
+        margin: 0 0 1em;
+    }
+
+    body#page-not-found #message p {
+        font-family: "Poppins-Regular", sans-serif;
+        font-size: 1rem;
+        color: #707070;
+        line-height: 1.5rem;
+        margin: 0 0 1em;
+    }
+
+    body#page-not-found #message .link {
+        margin: 2.5rem 0;
+    }
+
+    body#page-not-found #message .link a {
+        font-family: "Poppins-Medium", sans-serif;
+        font-size: 1.125rem;
+        color: darkorchid;
+        line-height: 1.6875rem;
+        text-decoration: none;
+    }
+
+    body#page-not-found #message .link a:hover {
+        color: whitesmoke;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body#page-not-found #message {
+        max-width: 75vw;
+        position: unset;
+        top: unset;
+        left: unset;
+        -webkit-transform: unset;
+        transform: unset;
+        padding: 0;
+    }
+
+    body#page-not-found #message h1 {
+        font-family: "Poppins-SemiBold", sans-serif;
+        font-size: 4.25rem;
+        color: darkorchid;
+        text-align: center;
+        line-height: 6rem;
+        margin: 0 0 0.25em;
+    }
+
+    body#page-not-found #message h2 {
+        font-family: "Poppins-Medium", sans-serif;
+        font-size: 1.25rem;
+        color: #707070;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 1.5rem;
+        margin: 0 0 1em;
+    }
+
+    body#page-not-found #message p {
+        font-family: "Poppins-Regular", sans-serif;
+        font-size: 1rem;
+        color: #707070;
+        text-align: center;
+        line-height: 1.5rem;
+        margin: 0 0 1em;
+    }
+
+    body#page-not-found #message .link {
+        text-align: center;
+        margin: 2.5rem 0;
+    }
+
+    body#page-not-found #message .link a {
+        font-family: "Poppins-Medium", sans-serif;
+        font-size: 1.125rem;
+        color: darkorchid;
+        line-height: 1.6875rem;
+        text-decoration: none;
+    }
+
+    body#page-not-found #message .link a:hover {
+        color: whitesmoke;
+    }
+}
+
+.hamburger {
+    padding: 15px 15px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition-property: opacity, -webkit-filter;
+    transition-property: opacity, -webkit-filter;
+    transition-property: opacity, filter;
+    transition-property: opacity, filter, -webkit-filter;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    font: inherit;
+    color: inherit;
+    text-transform: none;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    overflow: visible;
+}
+
+.hamburger:hover {
+    opacity: 0.7;
+}
+
+.hamburger.is-active:hover {
+    opacity: 0.7;
+}
+
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::before,
+.hamburger.is-active .hamburger-inner::after {
+    background-color: #707070;
+}
+
+.hamburger-box {
+    width: 32px;
+    height: 22px;
+    display: inline-block;
+    position: relative;
+}
+
+.hamburger-inner {
+    display: block;
+    top: 50%;
+    margin-top: -2px;
+}
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
+    width: 32px;
+    height: 4px;
+    background-color: #707070;
+    border-radius: 4px;
+    position: absolute;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
+
+.hamburger-inner::before,
+.hamburger-inner::after {
+    content: "";
+    display: block;
+}
+
+.hamburger-inner::before {
+    top: -9px;
+}
+
+.hamburger-inner::after {
+    bottom: -9px;
+}
+
+/*
+   * 3DX
+   */
+.hamburger--3dx .hamburger-box {
+    -webkit-perspective: 64px;
+    perspective: 64px;
+}
+
+.hamburger--3dx .hamburger-inner {
+    -webkit-transition: background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.hamburger--3dx .hamburger-inner::before,
+.hamburger--3dx .hamburger-inner::after {
+    -webkit-transition: -webkit-transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: -webkit-transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.hamburger--3dx.is-active .hamburger-inner {
+    background-color: transparent !important;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.hamburger--3dx.is-active .hamburger-inner::before {
+    -webkit-transform: translate3d(0, 9px, 0) rotate(45deg);
+    transform: translate3d(0, 9px, 0) rotate(45deg);
+}
+
+.hamburger--3dx.is-active .hamburger-inner::after {
+    -webkit-transform: translate3d(0, -9px, 0) rotate(-45deg);
+    transform: translate3d(0, -9px, 0) rotate(-45deg);
+}
+
+/*
+   * 3DX Reverse
+   */
+.hamburger--3dx-r .hamburger-box {
+    -webkit-perspective: 64px;
+    perspective: 64px;
+}
+
+.hamburger--3dx-r .hamburger-inner {
+    -webkit-transition: background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.hamburger--3dx-r .hamburger-inner::before,
+.hamburger--3dx-r .hamburger-inner::after {
+    -webkit-transition: -webkit-transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: -webkit-transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.hamburger--3dx-r.is-active .hamburger-inner {
+    background-color: transparent !important;
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+
+.hamburger--3dx-r.is-active .hamburger-inner::before {
+    -webkit-transform: translate3d(0, 9px, 0) rotate(45deg);
+    transform: translate3d(0, 9px, 0) rotate(45deg);
+}
+
+.hamburger--3dx-r.is-active .hamburger-inner::after {
+    -webkit-transform: translate3d(0, -9px, 0) rotate(-45deg);
+    transform: translate3d(0, -9px, 0) rotate(-45deg);
+}
+
+/*
+   * 3DY
+   */
+.hamburger--3dy .hamburger-box {
+    -webkit-perspective: 64px;
+    perspective: 64px;
+}
+
+.hamburger--3dy .hamburger-inner {
+    -webkit-transition: background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.hamburger--3dy .hamburger-inner::before,
+.hamburger--3dy .hamburger-inner::after {
+    -webkit-transition: -webkit-transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: -webkit-transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.hamburger--3dy.is-active .hamburger-inner {
+    background-color: transparent !important;
+    -webkit-transform: rotateX(-180deg);
+    transform: rotateX(-180deg);
+}
+
+.hamburger--3dy.is-active .hamburger-inner::before {
+    -webkit-transform: translate3d(0, 9px, 0) rotate(45deg);
+    transform: translate3d(0, 9px, 0) rotate(45deg);
+}
+
+.hamburger--3dy.is-active .hamburger-inner::after {
+    -webkit-transform: translate3d(0, -9px, 0) rotate(-45deg);
+    transform: translate3d(0, -9px, 0) rotate(-45deg);
+}
+
+/*
+   * 3DY Reverse
+   */
+.hamburger--3dy-r .hamburger-box {
+    -webkit-perspective: 64px;
+    perspective: 64px;
+}
+
+.hamburger--3dy-r .hamburger-inner {
+    -webkit-transition: background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.hamburger--3dy-r .hamburger-inner::before,
+.hamburger--3dy-r .hamburger-inner::after {
+    -webkit-transition: -webkit-transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: -webkit-transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.hamburger--3dy-r.is-active .hamburger-inner {
+    background-color: transparent !important;
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+
+.hamburger--3dy-r.is-active .hamburger-inner::before {
+    -webkit-transform: translate3d(0, 9px, 0) rotate(45deg);
+    transform: translate3d(0, 9px, 0) rotate(45deg);
+}
+
+.hamburger--3dy-r.is-active .hamburger-inner::after {
+    -webkit-transform: translate3d(0, -9px, 0) rotate(-45deg);
+    transform: translate3d(0, -9px, 0) rotate(-45deg);
+}
+
+/*
+   * 3DXY
+   */
+.hamburger--3dxy .hamburger-box {
+    -webkit-perspective: 64px;
+    perspective: 64px;
+}
+
+.hamburger--3dxy .hamburger-inner {
+    -webkit-transition: background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.hamburger--3dxy .hamburger-inner::before,
+.hamburger--3dxy .hamburger-inner::after {
+    -webkit-transition: -webkit-transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: -webkit-transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.hamburger--3dxy.is-active .hamburger-inner {
+    background-color: transparent !important;
+    -webkit-transform: rotateX(180deg) rotateY(180deg);
+    transform: rotateX(180deg) rotateY(180deg);
+}
+
+.hamburger--3dxy.is-active .hamburger-inner::before {
+    -webkit-transform: translate3d(0, 9px, 0) rotate(45deg);
+    transform: translate3d(0, 9px, 0) rotate(45deg);
+}
+
+.hamburger--3dxy.is-active .hamburger-inner::after {
+    -webkit-transform: translate3d(0, -9px, 0) rotate(-45deg);
+    transform: translate3d(0, -9px, 0) rotate(-45deg);
+}
+
+/*
+   * 3DXY Reverse
+   */
+.hamburger--3dxy-r .hamburger-box {
+    -webkit-perspective: 64px;
+    perspective: 64px;
+}
+
+.hamburger--3dxy-r .hamburger-inner {
+    -webkit-transition: background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.hamburger--3dxy-r .hamburger-inner::before,
+.hamburger--3dxy-r .hamburger-inner::after {
+    -webkit-transition: -webkit-transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: -webkit-transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.hamburger--3dxy-r.is-active .hamburger-inner {
+    background-color: transparent !important;
+    -webkit-transform: rotateX(180deg) rotateY(180deg) rotateZ(-180deg);
+    transform: rotateX(180deg) rotateY(180deg) rotateZ(-180deg);
+}
+
+.hamburger--3dxy-r.is-active .hamburger-inner::before {
+    -webkit-transform: translate3d(0, 9px, 0) rotate(45deg);
+    transform: translate3d(0, 9px, 0) rotate(45deg);
+}
+
+.hamburger--3dxy-r.is-active .hamburger-inner::after {
+    -webkit-transform: translate3d(0, -9px, 0) rotate(-45deg);
+    transform: translate3d(0, -9px, 0) rotate(-45deg);
+}
+
+/*
+   * Arrow
+   */
+.hamburger--arrow.is-active .hamburger-inner::before {
+    -webkit-transform: translate3d(-6.4px, 0, 0) rotate(-45deg) scale(0.7, 1);
+    transform: translate3d(-6.4px, 0, 0) rotate(-45deg) scale(0.7, 1);
+}
+
+.hamburger--arrow.is-active .hamburger-inner::after {
+    -webkit-transform: translate3d(-6.4px, 0, 0) rotate(45deg) scale(0.7, 1);
+    transform: translate3d(-6.4px, 0, 0) rotate(45deg) scale(0.7, 1);
+}
+
+/*
+   * Arrow Right
+   */
+.hamburger--arrow-r.is-active .hamburger-inner::before {
+    -webkit-transform: translate3d(6.4px, 0, 0) rotate(45deg) scale(0.7, 1);
+    transform: translate3d(6.4px, 0, 0) rotate(45deg) scale(0.7, 1);
+}
+
+.hamburger--arrow-r.is-active .hamburger-inner::after {
+    -webkit-transform: translate3d(6.4px, 0, 0) rotate(-45deg) scale(0.7, 1);
+    transform: translate3d(6.4px, 0, 0) rotate(-45deg) scale(0.7, 1);
+}
+
+/*
+   * Arrow Alt
+   */
+.hamburger--arrowalt .hamburger-inner::before {
+    -webkit-transition: top 0.1s 0.1s ease, -webkit-transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: top 0.1s 0.1s ease, -webkit-transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: top 0.1s 0.1s ease, transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: top 0.1s 0.1s ease, transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.hamburger--arrowalt .hamburger-inner::after {
+    -webkit-transition: bottom 0.1s 0.1s ease, -webkit-transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: bottom 0.1s 0.1s ease, -webkit-transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: bottom 0.1s 0.1s ease, transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: bottom 0.1s 0.1s ease, transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.hamburger--arrowalt.is-active .hamburger-inner::before {
+    top: 0;
+    -webkit-transform: translate3d(-6.4px, -8px, 0) rotate(-45deg) scale(0.7, 1);
+    transform: translate3d(-6.4px, -8px, 0) rotate(-45deg) scale(0.7, 1);
+    -webkit-transition: top 0.1s ease, -webkit-transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    transition: top 0.1s ease, -webkit-transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    transition: top 0.1s ease, transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    transition: top 0.1s ease, transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22), -webkit-transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+
+.hamburger--arrowalt.is-active .hamburger-inner::after {
+    bottom: 0;
+    -webkit-transform: translate3d(-6.4px, 8px, 0) rotate(45deg) scale(0.7, 1);
+    transform: translate3d(-6.4px, 8px, 0) rotate(45deg) scale(0.7, 1);
+    -webkit-transition: bottom 0.1s ease, -webkit-transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    transition: bottom 0.1s ease, -webkit-transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    transition: bottom 0.1s ease, transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    transition: bottom 0.1s ease, transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22), -webkit-transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+
+/*
+   * Arrow Alt Right
+   */
+.hamburger--arrowalt-r .hamburger-inner::before {
+    -webkit-transition: top 0.1s 0.1s ease, -webkit-transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: top 0.1s 0.1s ease, -webkit-transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: top 0.1s 0.1s ease, transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: top 0.1s 0.1s ease, transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.hamburger--arrowalt-r .hamburger-inner::after {
+    -webkit-transition: bottom 0.1s 0.1s ease, -webkit-transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: bottom 0.1s 0.1s ease, -webkit-transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: bottom 0.1s 0.1s ease, transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: bottom 0.1s 0.1s ease, transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.hamburger--arrowalt-r.is-active .hamburger-inner::before {
+    top: 0;
+    -webkit-transform: translate3d(6.4px, -8px, 0) rotate(45deg) scale(0.7, 1);
+    transform: translate3d(6.4px, -8px, 0) rotate(45deg) scale(0.7, 1);
+    -webkit-transition: top 0.1s ease, -webkit-transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    transition: top 0.1s ease, -webkit-transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    transition: top 0.1s ease, transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    transition: top 0.1s ease, transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22), -webkit-transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+
+.hamburger--arrowalt-r.is-active .hamburger-inner::after {
+    bottom: 0;
+    -webkit-transform: translate3d(6.4px, 8px, 0) rotate(-45deg) scale(0.7, 1);
+    transform: translate3d(6.4px, 8px, 0) rotate(-45deg) scale(0.7, 1);
+    -webkit-transition: bottom 0.1s ease, -webkit-transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    transition: bottom 0.1s ease, -webkit-transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    transition: bottom 0.1s ease, transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    transition: bottom 0.1s ease, transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22), -webkit-transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+
+/*
+   * Arrow Turn
+   */
+.hamburger--arrowturn.is-active .hamburger-inner {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+.hamburger--arrowturn.is-active .hamburger-inner::before {
+    -webkit-transform: translate3d(8px, 0, 0) rotate(45deg) scale(0.7, 1);
+    transform: translate3d(8px, 0, 0) rotate(45deg) scale(0.7, 1);
+}
+
+.hamburger--arrowturn.is-active .hamburger-inner::after {
+    -webkit-transform: translate3d(8px, 0, 0) rotate(-45deg) scale(0.7, 1);
+    transform: translate3d(8px, 0, 0) rotate(-45deg) scale(0.7, 1);
+}
+
+/*
+   * Arrow Turn Right
+   */
+.hamburger--arrowturn-r.is-active .hamburger-inner {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+.hamburger--arrowturn-r.is-active .hamburger-inner::before {
+    -webkit-transform: translate3d(-8px, 0, 0) rotate(-45deg) scale(0.7, 1);
+    transform: translate3d(-8px, 0, 0) rotate(-45deg) scale(0.7, 1);
+}
+
+.hamburger--arrowturn-r.is-active .hamburger-inner::after {
+    -webkit-transform: translate3d(-8px, 0, 0) rotate(45deg) scale(0.7, 1);
+    transform: translate3d(-8px, 0, 0) rotate(45deg) scale(0.7, 1);
+}
+
+/*
+   * Boring
+   */
+.hamburger--boring .hamburger-inner,
+.hamburger--boring .hamburger-inner::before,
+.hamburger--boring .hamburger-inner::after {
+    -webkit-transition-property: none;
+    transition-property: none;
+}
+
+.hamburger--boring.is-active .hamburger-inner {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.hamburger--boring.is-active .hamburger-inner::before {
+    top: 0;
+    opacity: 0;
+}
+
+.hamburger--boring.is-active .hamburger-inner::after {
+    bottom: 0;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+/*
+   * Collapse
+   */
+.hamburger--collapse .hamburger-inner {
+    top: auto;
+    bottom: 0;
+    -webkit-transition-duration: 0.13s;
+    transition-duration: 0.13s;
+    -webkit-transition-delay: 0.13s;
+    transition-delay: 0.13s;
+    -webkit-transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--collapse .hamburger-inner::after {
+    top: -18px;
+    -webkit-transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), opacity 0.1s linear;
+    transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), opacity 0.1s linear;
+}
+
+.hamburger--collapse .hamburger-inner::before {
+    -webkit-transition: top 0.12s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), -webkit-transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: top 0.12s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), -webkit-transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: top 0.12s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: top 0.12s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--collapse.is-active .hamburger-inner {
+    -webkit-transform: translate3d(0, -9px, 0) rotate(-45deg);
+    transform: translate3d(0, -9px, 0) rotate(-45deg);
+    -webkit-transition-delay: 0.22s;
+    transition-delay: 0.22s;
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.hamburger--collapse.is-active .hamburger-inner::after {
+    top: 0;
+    opacity: 0;
+    -webkit-transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333), opacity 0.1s 0.22s linear;
+    transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333), opacity 0.1s 0.22s linear;
+}
+
+.hamburger--collapse.is-active .hamburger-inner::before {
+    top: 0;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transition: top 0.1s 0.16s cubic-bezier(0.33333, 0, 0.66667, 0.33333), -webkit-transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: top 0.1s 0.16s cubic-bezier(0.33333, 0, 0.66667, 0.33333), -webkit-transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: top 0.1s 0.16s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: top 0.1s 0.16s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+/*
+   * Collapse Reverse
+   */
+.hamburger--collapse-r .hamburger-inner {
+    top: auto;
+    bottom: 0;
+    -webkit-transition-duration: 0.13s;
+    transition-duration: 0.13s;
+    -webkit-transition-delay: 0.13s;
+    transition-delay: 0.13s;
+    -webkit-transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--collapse-r .hamburger-inner::after {
+    top: -18px;
+    -webkit-transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), opacity 0.1s linear;
+    transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), opacity 0.1s linear;
+}
+
+.hamburger--collapse-r .hamburger-inner::before {
+    -webkit-transition: top 0.12s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), -webkit-transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: top 0.12s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), -webkit-transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: top 0.12s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: top 0.12s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--collapse-r.is-active .hamburger-inner {
+    -webkit-transform: translate3d(0, -9px, 0) rotate(45deg);
+    transform: translate3d(0, -9px, 0) rotate(45deg);
+    -webkit-transition-delay: 0.22s;
+    transition-delay: 0.22s;
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.hamburger--collapse-r.is-active .hamburger-inner::after {
+    top: 0;
+    opacity: 0;
+    -webkit-transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333), opacity 0.1s 0.22s linear;
+    transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333), opacity 0.1s 0.22s linear;
+}
+
+.hamburger--collapse-r.is-active .hamburger-inner::before {
+    top: 0;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transition: top 0.1s 0.16s cubic-bezier(0.33333, 0, 0.66667, 0.33333), -webkit-transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: top 0.1s 0.16s cubic-bezier(0.33333, 0, 0.66667, 0.33333), -webkit-transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: top 0.1s 0.16s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: top 0.1s 0.16s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+/*
+   * Elastic
+   */
+.hamburger--elastic .hamburger-inner {
+    top: 2px;
+    -webkit-transition-duration: 0.275s;
+    transition-duration: 0.275s;
+    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.hamburger--elastic .hamburger-inner::before {
+    top: 9px;
+    -webkit-transition: opacity 0.125s 0.275s ease;
+    transition: opacity 0.125s 0.275s ease;
+}
+
+.hamburger--elastic .hamburger-inner::after {
+    top: 18px;
+    -webkit-transition: -webkit-transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: -webkit-transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55), -webkit-transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.hamburger--elastic.is-active .hamburger-inner {
+    -webkit-transform: translate3d(0, 9px, 0) rotate(135deg);
+    transform: translate3d(0, 9px, 0) rotate(135deg);
+    -webkit-transition-delay: 0.075s;
+    transition-delay: 0.075s;
+}
+
+.hamburger--elastic.is-active .hamburger-inner::before {
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    opacity: 0;
+}
+
+.hamburger--elastic.is-active .hamburger-inner::after {
+    -webkit-transform: translate3d(0, -18px, 0) rotate(-270deg);
+    transform: translate3d(0, -18px, 0) rotate(-270deg);
+    -webkit-transition-delay: 0.075s;
+    transition-delay: 0.075s;
+}
+
+/*
+   * Elastic Reverse
+   */
+.hamburger--elastic-r .hamburger-inner {
+    top: 2px;
+    -webkit-transition-duration: 0.275s;
+    transition-duration: 0.275s;
+    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.hamburger--elastic-r .hamburger-inner::before {
+    top: 9px;
+    -webkit-transition: opacity 0.125s 0.275s ease;
+    transition: opacity 0.125s 0.275s ease;
+}
+
+.hamburger--elastic-r .hamburger-inner::after {
+    top: 18px;
+    -webkit-transition: -webkit-transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: -webkit-transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55), -webkit-transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.hamburger--elastic-r.is-active .hamburger-inner {
+    -webkit-transform: translate3d(0, 9px, 0) rotate(-135deg);
+    transform: translate3d(0, 9px, 0) rotate(-135deg);
+    -webkit-transition-delay: 0.075s;
+    transition-delay: 0.075s;
+}
+
+.hamburger--elastic-r.is-active .hamburger-inner::before {
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    opacity: 0;
+}
+
+.hamburger--elastic-r.is-active .hamburger-inner::after {
+    -webkit-transform: translate3d(0, -18px, 0) rotate(270deg);
+    transform: translate3d(0, -18px, 0) rotate(270deg);
+    -webkit-transition-delay: 0.075s;
+    transition-delay: 0.075s;
+}
+
+/*
+   * Emphatic
+   */
+.hamburger--emphatic {
+    overflow: hidden;
+}
+
+.hamburger--emphatic .hamburger-inner {
+    -webkit-transition: background-color 0.125s 0.175s ease-in;
+    transition: background-color 0.125s 0.175s ease-in;
+}
+
+.hamburger--emphatic .hamburger-inner::before {
+    left: 0;
+    -webkit-transition: top 0.05s 0.125s linear, left 0.125s 0.175s ease-in, -webkit-transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+    transition: top 0.05s 0.125s linear, left 0.125s 0.175s ease-in, -webkit-transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+    transition: transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335), top 0.05s 0.125s linear, left 0.125s 0.175s ease-in;
+    transition: transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335), top 0.05s 0.125s linear, left 0.125s 0.175s ease-in, -webkit-transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+}
+
+.hamburger--emphatic .hamburger-inner::after {
+    top: 9px;
+    right: 0;
+    -webkit-transition: top 0.05s 0.125s linear, right 0.125s 0.175s ease-in, -webkit-transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+    transition: top 0.05s 0.125s linear, right 0.125s 0.175s ease-in, -webkit-transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+    transition: transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335), top 0.05s 0.125s linear, right 0.125s 0.175s ease-in;
+    transition: transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335), top 0.05s 0.125s linear, right 0.125s 0.175s ease-in, -webkit-transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+}
+
+.hamburger--emphatic.is-active .hamburger-inner {
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    background-color: transparent !important;
+}
+
+.hamburger--emphatic.is-active .hamburger-inner::before {
+    left: -64px;
+    top: -64px;
+    -webkit-transform: translate3d(64px, 64px, 0) rotate(45deg);
+    transform: translate3d(64px, 64px, 0) rotate(45deg);
+    -webkit-transition: left 0.125s ease-out, top 0.05s 0.125s linear, -webkit-transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: left 0.125s ease-out, top 0.05s 0.125s linear, -webkit-transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: left 0.125s ease-out, top 0.05s 0.125s linear, transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: left 0.125s ease-out, top 0.05s 0.125s linear, transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1), -webkit-transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.hamburger--emphatic.is-active .hamburger-inner::after {
+    right: -64px;
+    top: -64px;
+    -webkit-transform: translate3d(-64px, 64px, 0) rotate(-45deg);
+    transform: translate3d(-64px, 64px, 0) rotate(-45deg);
+    -webkit-transition: right 0.125s ease-out, top 0.05s 0.125s linear, -webkit-transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: right 0.125s ease-out, top 0.05s 0.125s linear, -webkit-transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: right 0.125s ease-out, top 0.05s 0.125s linear, transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: right 0.125s ease-out, top 0.05s 0.125s linear, transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1), -webkit-transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/*
+   * Emphatic Reverse
+   */
+.hamburger--emphatic-r {
+    overflow: hidden;
+}
+
+.hamburger--emphatic-r .hamburger-inner {
+    -webkit-transition: background-color 0.125s 0.175s ease-in;
+    transition: background-color 0.125s 0.175s ease-in;
+}
+
+.hamburger--emphatic-r .hamburger-inner::before {
+    left: 0;
+    -webkit-transition: top 0.05s 0.125s linear, left 0.125s 0.175s ease-in, -webkit-transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+    transition: top 0.05s 0.125s linear, left 0.125s 0.175s ease-in, -webkit-transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+    transition: transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335), top 0.05s 0.125s linear, left 0.125s 0.175s ease-in;
+    transition: transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335), top 0.05s 0.125s linear, left 0.125s 0.175s ease-in, -webkit-transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+}
+
+.hamburger--emphatic-r .hamburger-inner::after {
+    top: 9px;
+    right: 0;
+    -webkit-transition: top 0.05s 0.125s linear, right 0.125s 0.175s ease-in, -webkit-transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+    transition: top 0.05s 0.125s linear, right 0.125s 0.175s ease-in, -webkit-transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+    transition: transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335), top 0.05s 0.125s linear, right 0.125s 0.175s ease-in;
+    transition: transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335), top 0.05s 0.125s linear, right 0.125s 0.175s ease-in, -webkit-transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+}
+
+.hamburger--emphatic-r.is-active .hamburger-inner {
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    background-color: transparent !important;
+}
+
+.hamburger--emphatic-r.is-active .hamburger-inner::before {
+    left: -64px;
+    top: 64px;
+    -webkit-transform: translate3d(64px, -64px, 0) rotate(-45deg);
+    transform: translate3d(64px, -64px, 0) rotate(-45deg);
+    -webkit-transition: left 0.125s ease-out, top 0.05s 0.125s linear, -webkit-transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: left 0.125s ease-out, top 0.05s 0.125s linear, -webkit-transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: left 0.125s ease-out, top 0.05s 0.125s linear, transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: left 0.125s ease-out, top 0.05s 0.125s linear, transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1), -webkit-transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.hamburger--emphatic-r.is-active .hamburger-inner::after {
+    right: -64px;
+    top: 64px;
+    -webkit-transform: translate3d(-64px, -64px, 0) rotate(45deg);
+    transform: translate3d(-64px, -64px, 0) rotate(45deg);
+    -webkit-transition: right 0.125s ease-out, top 0.05s 0.125s linear, -webkit-transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: right 0.125s ease-out, top 0.05s 0.125s linear, -webkit-transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: right 0.125s ease-out, top 0.05s 0.125s linear, transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: right 0.125s ease-out, top 0.05s 0.125s linear, transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1), -webkit-transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/*
+   * Minus
+   */
+.hamburger--minus .hamburger-inner::before,
+.hamburger--minus .hamburger-inner::after {
+    -webkit-transition: bottom 0.08s 0s ease-out, top 0.08s 0s ease-out, opacity 0s linear;
+    transition: bottom 0.08s 0s ease-out, top 0.08s 0s ease-out, opacity 0s linear;
+}
+
+.hamburger--minus.is-active .hamburger-inner::before,
+.hamburger--minus.is-active .hamburger-inner::after {
+    opacity: 0;
+    -webkit-transition: bottom 0.08s ease-out, top 0.08s ease-out, opacity 0s 0.08s linear;
+    transition: bottom 0.08s ease-out, top 0.08s ease-out, opacity 0s 0.08s linear;
+}
+
+.hamburger--minus.is-active .hamburger-inner::before {
+    top: 0;
+}
+
+.hamburger--minus.is-active .hamburger-inner::after {
+    bottom: 0;
+}
+
+/*
+   * Slider
+   */
+.hamburger--slider .hamburger-inner {
+    top: 2px;
+}
+
+.hamburger--slider .hamburger-inner::before {
+    top: 9px;
+    -webkit-transition-property: opacity, -webkit-transform;
+    transition-property: opacity, -webkit-transform;
+    transition-property: transform, opacity;
+    transition-property: transform, opacity, -webkit-transform;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+}
+
+.hamburger--slider .hamburger-inner::after {
+    top: 18px;
+}
+
+.hamburger--slider.is-active .hamburger-inner {
+    -webkit-transform: translate3d(0, 9px, 0) rotate(45deg);
+    transform: translate3d(0, 9px, 0) rotate(45deg);
+}
+
+.hamburger--slider.is-active .hamburger-inner::before {
+    -webkit-transform: rotate(-45deg) translate3d(-4.57143px, -5px, 0);
+    transform: rotate(-45deg) translate3d(-4.57143px, -5px, 0);
+    opacity: 0;
+}
+
+.hamburger--slider.is-active .hamburger-inner::after {
+    -webkit-transform: translate3d(0, -18px, 0) rotate(-90deg);
+    transform: translate3d(0, -18px, 0) rotate(-90deg);
+}
+
+/*
+   * Slider Reverse
+   */
+.hamburger--slider-r .hamburger-inner {
+    top: 2px;
+}
+
+.hamburger--slider-r .hamburger-inner::before {
+    top: 9px;
+    -webkit-transition-property: opacity, -webkit-transform;
+    transition-property: opacity, -webkit-transform;
+    transition-property: transform, opacity;
+    transition-property: transform, opacity, -webkit-transform;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+}
+
+.hamburger--slider-r .hamburger-inner::after {
+    top: 18px;
+}
+
+.hamburger--slider-r.is-active .hamburger-inner {
+    -webkit-transform: translate3d(0, 9px, 0) rotate(-45deg);
+    transform: translate3d(0, 9px, 0) rotate(-45deg);
+}
+
+.hamburger--slider-r.is-active .hamburger-inner::before {
+    -webkit-transform: rotate(45deg) translate3d(4.57143px, -5px, 0);
+    transform: rotate(45deg) translate3d(4.57143px, -5px, 0);
+    opacity: 0;
+}
+
+.hamburger--slider-r.is-active .hamburger-inner::after {
+    -webkit-transform: translate3d(0, -18px, 0) rotate(90deg);
+    transform: translate3d(0, -18px, 0) rotate(90deg);
+}
+
+/*
+   * Spin
+   */
+.hamburger--spin .hamburger-inner {
+    -webkit-transition-duration: 0.22s;
+    transition-duration: 0.22s;
+    -webkit-transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--spin .hamburger-inner::before {
+    -webkit-transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
+    transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
+}
+
+.hamburger--spin .hamburger-inner::after {
+    -webkit-transition: bottom 0.1s 0.25s ease-in, -webkit-transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: bottom 0.1s 0.25s ease-in, -webkit-transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--spin.is-active .hamburger-inner {
+    -webkit-transform: rotate(225deg);
+    transform: rotate(225deg);
+    -webkit-transition-delay: 0.12s;
+    transition-delay: 0.12s;
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.hamburger--spin.is-active .hamburger-inner::before {
+    top: 0;
+    opacity: 0;
+    -webkit-transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
+    transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
+}
+
+.hamburger--spin.is-active .hamburger-inner::after {
+    bottom: 0;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transition: bottom 0.1s ease-out, -webkit-transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: bottom 0.1s ease-out, -webkit-transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+/*
+   * Spin Reverse
+   */
+.hamburger--spin-r .hamburger-inner {
+    -webkit-transition-duration: 0.22s;
+    transition-duration: 0.22s;
+    -webkit-transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--spin-r .hamburger-inner::before {
+    -webkit-transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
+    transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
+}
+
+.hamburger--spin-r .hamburger-inner::after {
+    -webkit-transition: bottom 0.1s 0.25s ease-in, -webkit-transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: bottom 0.1s 0.25s ease-in, -webkit-transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--spin-r.is-active .hamburger-inner {
+    -webkit-transform: rotate(-225deg);
+    transform: rotate(-225deg);
+    -webkit-transition-delay: 0.12s;
+    transition-delay: 0.12s;
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.hamburger--spin-r.is-active .hamburger-inner::before {
+    top: 0;
+    opacity: 0;
+    -webkit-transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
+    transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
+}
+
+.hamburger--spin-r.is-active .hamburger-inner::after {
+    bottom: 0;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transition: bottom 0.1s ease-out, -webkit-transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: bottom 0.1s ease-out, -webkit-transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+/*
+   * Spring
+   */
+.hamburger--spring .hamburger-inner {
+    top: 2px;
+    -webkit-transition: background-color 0s 0.13s linear;
+    transition: background-color 0s 0.13s linear;
+}
+
+.hamburger--spring .hamburger-inner::before {
+    top: 9px;
+    -webkit-transition: top 0.1s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), -webkit-transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: top 0.1s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), -webkit-transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: top 0.1s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: top 0.1s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--spring .hamburger-inner::after {
+    top: 18px;
+    -webkit-transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), -webkit-transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), -webkit-transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--spring.is-active .hamburger-inner {
+    -webkit-transition-delay: 0.22s;
+    transition-delay: 0.22s;
+    background-color: transparent !important;
+}
+
+.hamburger--spring.is-active .hamburger-inner::before {
+    top: 0;
+    -webkit-transition: top 0.1s 0.15s cubic-bezier(0.33333, 0, 0.66667, 0.33333), -webkit-transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: top 0.1s 0.15s cubic-bezier(0.33333, 0, 0.66667, 0.33333), -webkit-transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: top 0.1s 0.15s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: top 0.1s 0.15s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 9px, 0) rotate(45deg);
+    transform: translate3d(0, 9px, 0) rotate(45deg);
+}
+
+.hamburger--spring.is-active .hamburger-inner::after {
+    top: 0;
+    -webkit-transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333), -webkit-transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333), -webkit-transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 9px, 0) rotate(-45deg);
+    transform: translate3d(0, 9px, 0) rotate(-45deg);
+}
+
+/*
+   * Spring Reverse
+   */
+.hamburger--spring-r .hamburger-inner {
+    top: auto;
+    bottom: 0;
+    -webkit-transition-duration: 0.13s;
+    transition-duration: 0.13s;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    -webkit-transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--spring-r .hamburger-inner::after {
+    top: -18px;
+    -webkit-transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), opacity 0s linear;
+    transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), opacity 0s linear;
+}
+
+.hamburger--spring-r .hamburger-inner::before {
+    -webkit-transition: top 0.1s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), -webkit-transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: top 0.1s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), -webkit-transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: top 0.1s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: top 0.1s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--spring-r.is-active .hamburger-inner {
+    -webkit-transform: translate3d(0, -9px, 0) rotate(-45deg);
+    transform: translate3d(0, -9px, 0) rotate(-45deg);
+    -webkit-transition-delay: 0.22s;
+    transition-delay: 0.22s;
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.hamburger--spring-r.is-active .hamburger-inner::after {
+    top: 0;
+    opacity: 0;
+    -webkit-transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333), opacity 0s 0.22s linear;
+    transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333), opacity 0s 0.22s linear;
+}
+
+.hamburger--spring-r.is-active .hamburger-inner::before {
+    top: 0;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transition: top 0.1s 0.15s cubic-bezier(0.33333, 0, 0.66667, 0.33333), -webkit-transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: top 0.1s 0.15s cubic-bezier(0.33333, 0, 0.66667, 0.33333), -webkit-transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: top 0.1s 0.15s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: top 0.1s 0.15s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+/*
+   * Stand
+   */
+.hamburger--stand .hamburger-inner {
+    -webkit-transition: background-color 0s 0.075s linear, -webkit-transform 0.075s 0.15s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: background-color 0s 0.075s linear, -webkit-transform 0.075s 0.15s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: transform 0.075s 0.15s cubic-bezier(0.55, 0.055, 0.675, 0.19), background-color 0s 0.075s linear;
+    transition: transform 0.075s 0.15s cubic-bezier(0.55, 0.055, 0.675, 0.19), background-color 0s 0.075s linear, -webkit-transform 0.075s 0.15s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--stand .hamburger-inner::before {
+    -webkit-transition: top 0.075s 0.075s ease-in, -webkit-transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: top 0.075s 0.075s ease-in, -webkit-transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: top 0.075s 0.075s ease-in, transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: top 0.075s 0.075s ease-in, transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--stand .hamburger-inner::after {
+    -webkit-transition: bottom 0.075s 0.075s ease-in, -webkit-transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: bottom 0.075s 0.075s ease-in, -webkit-transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: bottom 0.075s 0.075s ease-in, transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: bottom 0.075s 0.075s ease-in, transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--stand.is-active .hamburger-inner {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    background-color: transparent !important;
+    -webkit-transition: background-color 0s 0.15s linear, -webkit-transform 0.075s 0s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: background-color 0s 0.15s linear, -webkit-transform 0.075s 0s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: transform 0.075s 0s cubic-bezier(0.215, 0.61, 0.355, 1), background-color 0s 0.15s linear;
+    transition: transform 0.075s 0s cubic-bezier(0.215, 0.61, 0.355, 1), background-color 0s 0.15s linear, -webkit-transform 0.075s 0s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.hamburger--stand.is-active .hamburger-inner::before {
+    top: 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transition: top 0.075s 0.1s ease-out, -webkit-transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: top 0.075s 0.1s ease-out, -webkit-transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: top 0.075s 0.1s ease-out, transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: top 0.075s 0.1s ease-out, transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.hamburger--stand.is-active .hamburger-inner::after {
+    bottom: 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: bottom 0.075s 0.1s ease-out, -webkit-transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: bottom 0.075s 0.1s ease-out, -webkit-transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: bottom 0.075s 0.1s ease-out, transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: bottom 0.075s 0.1s ease-out, transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+/*
+   * Stand Reverse
+   */
+.hamburger--stand-r .hamburger-inner {
+    -webkit-transition: background-color 0s 0.075s linear, -webkit-transform 0.075s 0.15s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: background-color 0s 0.075s linear, -webkit-transform 0.075s 0.15s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: transform 0.075s 0.15s cubic-bezier(0.55, 0.055, 0.675, 0.19), background-color 0s 0.075s linear;
+    transition: transform 0.075s 0.15s cubic-bezier(0.55, 0.055, 0.675, 0.19), background-color 0s 0.075s linear, -webkit-transform 0.075s 0.15s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--stand-r .hamburger-inner::before {
+    -webkit-transition: top 0.075s 0.075s ease-in, -webkit-transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: top 0.075s 0.075s ease-in, -webkit-transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: top 0.075s 0.075s ease-in, transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: top 0.075s 0.075s ease-in, transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--stand-r .hamburger-inner::after {
+    -webkit-transition: bottom 0.075s 0.075s ease-in, -webkit-transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: bottom 0.075s 0.075s ease-in, -webkit-transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: bottom 0.075s 0.075s ease-in, transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: bottom 0.075s 0.075s ease-in, transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.075s 0s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--stand-r.is-active .hamburger-inner {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    background-color: transparent !important;
+    -webkit-transition: background-color 0s 0.15s linear, -webkit-transform 0.075s 0s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: background-color 0s 0.15s linear, -webkit-transform 0.075s 0s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: transform 0.075s 0s cubic-bezier(0.215, 0.61, 0.355, 1), background-color 0s 0.15s linear;
+    transition: transform 0.075s 0s cubic-bezier(0.215, 0.61, 0.355, 1), background-color 0s 0.15s linear, -webkit-transform 0.075s 0s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.hamburger--stand-r.is-active .hamburger-inner::before {
+    top: 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transition: top 0.075s 0.1s ease-out, -webkit-transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: top 0.075s 0.1s ease-out, -webkit-transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: top 0.075s 0.1s ease-out, transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: top 0.075s 0.1s ease-out, transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.hamburger--stand-r.is-active .hamburger-inner::after {
+    bottom: 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: bottom 0.075s 0.1s ease-out, -webkit-transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: bottom 0.075s 0.1s ease-out, -webkit-transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: bottom 0.075s 0.1s ease-out, transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: bottom 0.075s 0.1s ease-out, transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+/*
+   * Squeeze
+   */
+.hamburger--squeeze .hamburger-inner {
+    -webkit-transition-duration: 0.075s;
+    transition-duration: 0.075s;
+    -webkit-transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--squeeze .hamburger-inner::before {
+    -webkit-transition: top 0.075s 0.12s ease, opacity 0.075s ease;
+    transition: top 0.075s 0.12s ease, opacity 0.075s ease;
+}
+
+.hamburger--squeeze .hamburger-inner::after {
+    -webkit-transition: bottom 0.075s 0.12s ease, -webkit-transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: bottom 0.075s 0.12s ease, -webkit-transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: bottom 0.075s 0.12s ease, transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: bottom 0.075s 0.12s ease, transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--squeeze.is-active .hamburger-inner {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition-delay: 0.12s;
+    transition-delay: 0.12s;
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.hamburger--squeeze.is-active .hamburger-inner::before {
+    top: 0;
+    opacity: 0;
+    -webkit-transition: top 0.075s ease, opacity 0.075s 0.12s ease;
+    transition: top 0.075s ease, opacity 0.075s 0.12s ease;
+}
+
+.hamburger--squeeze.is-active .hamburger-inner::after {
+    bottom: 0;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transition: bottom 0.075s ease, -webkit-transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: bottom 0.075s ease, -webkit-transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: bottom 0.075s ease, transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: bottom 0.075s ease, transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+/*
+   * Vortex
+   */
+.hamburger--vortex .hamburger-inner {
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.hamburger--vortex .hamburger-inner::before,
+.hamburger--vortex .hamburger-inner::after {
+    -webkit-transition-duration: 0s;
+    transition-duration: 0s;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+}
+
+.hamburger--vortex .hamburger-inner::before {
+    -webkit-transition-property: top, opacity;
+    transition-property: top, opacity;
+}
+
+.hamburger--vortex .hamburger-inner::after {
+    -webkit-transition-property: bottom, -webkit-transform;
+    transition-property: bottom, -webkit-transform;
+    transition-property: bottom, transform;
+    transition-property: bottom, transform, -webkit-transform;
+}
+
+.hamburger--vortex.is-active .hamburger-inner {
+    -webkit-transform: rotate(765deg);
+    transform: rotate(765deg);
+    -webkit-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.hamburger--vortex.is-active .hamburger-inner::before,
+.hamburger--vortex.is-active .hamburger-inner::after {
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.hamburger--vortex.is-active .hamburger-inner::before {
+    top: 0;
+    opacity: 0;
+}
+
+.hamburger--vortex.is-active .hamburger-inner::after {
+    bottom: 0;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/*
+   * Vortex Reverse
+   */
+.hamburger--vortex-r .hamburger-inner {
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.hamburger--vortex-r .hamburger-inner::before,
+.hamburger--vortex-r .hamburger-inner::after {
+    -webkit-transition-duration: 0s;
+    transition-duration: 0s;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+}
+
+.hamburger--vortex-r .hamburger-inner::before {
+    -webkit-transition-property: top, opacity;
+    transition-property: top, opacity;
+}
+
+.hamburger--vortex-r .hamburger-inner::after {
+    -webkit-transition-property: bottom, -webkit-transform;
+    transition-property: bottom, -webkit-transform;
+    transition-property: bottom, transform;
+    transition-property: bottom, transform, -webkit-transform;
+}
+
+.hamburger--vortex-r.is-active .hamburger-inner {
+    -webkit-transform: rotate(-765deg);
+    transform: rotate(-765deg);
+    -webkit-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.hamburger--vortex-r.is-active .hamburger-inner::before,
+.hamburger--vortex-r.is-active .hamburger-inner::after {
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.hamburger--vortex-r.is-active .hamburger-inner::before {
+    top: 0;
+    opacity: 0;
+}
+
+.hamburger--vortex-r.is-active .hamburger-inner::after {
+    bottom: 0;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+/*# sourceMappingURL=hamburgers.css.map */
